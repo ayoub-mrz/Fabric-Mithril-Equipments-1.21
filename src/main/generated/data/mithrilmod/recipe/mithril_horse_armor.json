@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    "J": {
+      "item": "mithrilmod:mithril_block"
+    },
+    "R": {
+      "item": "mithrilmod:mithril_ingot"
+    }
+  },
+  "pattern": [
+    " R ",
+    "RHR",
+    " J "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mithrilmod:mithril_horse_armor"
+  }
+}

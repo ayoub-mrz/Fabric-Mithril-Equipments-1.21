@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "mithril": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mithrilmod:mithril_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mithrilmod.smelt_mithril.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "mithrilmod:mithril_ingot"
+    },
+    "title": {
+      "translate": "advancements.mithrilmod.smelt_mithril.title"
+    },
+    "background": "mithrilmod:textures/block/raw_mithril_block.png",
+    "background": "mithrilmod:textures/gui/advancements/backgrounds/raw_mithril_block.png"
+  },
+  "requirements": [
+    [
+      "mithril"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

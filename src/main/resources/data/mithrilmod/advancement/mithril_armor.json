@@ -1,0 +1,46 @@
+{
+  "parent": "mithrilmod:mithril_tools",
+  "criteria": {
+    "mithril_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "mithrilmod:mithril_helmet"
+          },
+          {
+            "items": "mithrilmod:mithril_chestplate"
+          },
+          {
+            "items": "mithrilmod:mithril_leggings"
+          },
+          {
+            "items": "mithrilmod:mithril_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.mithrilmod.mithril_armor.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "mithrilmod:mithril_chestplate"
+    },
+    "title": {
+      "translate": "advancements.mithrilmod.mithril_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "mithril_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}
