@@ -13,7 +13,7 @@ public class ModItems {
 
     public static final Item MITHRIL_SWORD = registerItem("mithril_sword",
             new SwordItem(ModToolMaterials.MITHRIL, new Item.Settings()
-                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 3, -2.2f))));
+                    .attributeModifiers(SwordItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 7, -2.2f))));
     public static final Item MITHRIL_PICKAXE = registerItem("mithril_pickaxe",
             new PickaxeItem(ModToolMaterials.MITHRIL, new Item.Settings()
                     .attributeModifiers(PickaxeItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 1, -2.8f))));
@@ -22,7 +22,7 @@ public class ModItems {
                     .attributeModifiers(ShovelItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 1.5f, -3.0f))));
     public static final Item MITHRIL_AXE = registerItem("mithril_axe",
             new AxeItem(ModToolMaterials.MITHRIL, new Item.Settings()
-                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 6, -3f))));
+                    .attributeModifiers(AxeItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 9, -3f))));
     public static final Item MITHRIL_HOE = registerItem("mithril_hoe",
             new HoeItem(ModToolMaterials.MITHRIL, new Item.Settings()
                     .attributeModifiers(HoeItem.createAttributeModifiers(ModToolMaterials.MITHRIL, 0, -3f))));

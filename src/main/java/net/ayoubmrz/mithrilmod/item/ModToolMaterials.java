@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
     MITHRIL(ModTags.Blocks.INCORRECT_FOR_MITHRIL_TOOL,
-            1822, 10.0F, 11.0F, 15, () -> Ingredient.ofItems(ModItems.MITHRIL_INGOT));
+            1822, 10.0F, 5.0F, 15, () -> Ingredient.ofItems(ModItems.MITHRIL_INGOT));
 
     private final TagKey<Block> inverseTag;
     private final int itemDurability;
