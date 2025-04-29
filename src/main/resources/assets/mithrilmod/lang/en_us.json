@@ -20,7 +20,7 @@
   "block.mithrilmod.mithril_ore": "Mithril Ore",
   "block.mithrilmod.mithril_deepslate_ore": "Mithril Deepslate Ore",
 
-  "itemgroup.mithrilmod.mithril_equipments": "Mithril Equipments",
+  "itemgroup.mithrilmod.mithril_equipments": "Mithril Equipment",
 
   "advancements.mithrilmod.smelt_mithril.title": "A New Legend Begins",
   "advancements.mithrilmod.smelt_mithril.description": "You've surpassed the limits of Netherite. A new era of power begins.",
@@ -28,6 +28,6 @@
   "advancements.mithrilmod.mithril_tools.title": "Age of Power",
   "advancements.mithrilmod.mithril_tools.description": "Netherite was just the beginning. Now, true strength is yours.",
 
-  "advancements.mithrilmod.mithril_armor.title": "The Silver Guardian",
+  "advancements.mithrilmod.mithril_armor.title": "The Mithril Guardian",
   "advancements.mithrilmod.mithril_armor.description": "Dressed in the metal of legends, you shine brighter than the moon."
 }
