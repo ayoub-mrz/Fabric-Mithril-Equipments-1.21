@@ -27,7 +27,7 @@ public class ModConfiguredFeatures {
                 List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.MITHRIL_ORE.getDefaultState()),
                         OreFeatureConfig.createTarget(deepslateReplaceables, ModBlocks.MITHRIL_DEEPSLATE_ORE.getDefaultState()));
 
-        register(context, MITHRIL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMithrilOres, 3));
+        register(context, MITHRIL_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldMithrilOres, 6));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
